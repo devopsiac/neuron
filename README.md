@@ -1,15 +1,15 @@
-Prerequisites:
+# Prerequisites:
 
   1) Place your AWS credentails under .aws/credentails
 
-Steps:
+# Steps:
 
   1)Give the package execution permissionon.
   2)Execute the package using command ./neuron.
 
-Usage:
+# Usage:
 
-  Examples:-
+  # Examples:-
 
     curl -H "Content-Type: application/json" -X POST -d '{"InstanceName":"consul-machine","ImageId":"ami-6ff64712","SubnetId":"subnet-572eaa3e","KeyName":"ranjith_acc","Flavor":"t2.micro","UserData":"echo 'nothing'","AssignPubIp":true,"Cloud": {"Cloud":"aws","Region":"eu-west-3"}}' http://<your domain/ip>:8080/createserver
 
@@ -28,14 +28,14 @@ Usage:
     curl -H "Content-Type: application/json" -X GET -d '{"Cloud":"aws","Region":"eu-west-3"}' http://<your domain/ip>:8080/getallservers
 
   
-For UI:
+# For UI:
 
   1) For UI of neuron, unzip the File neuronUI and host it on any webserver (preferably apache2).
   2) This UI has very minimal feature when compared to neron application alone.
   3) For the Neuron UI to work PHP should be installed in the machine where UI is hosted, and respective PHP modules of the webserver on which it is hosted.
   4) Once it is hosted one can access UI by hitting: http://<your domain/ip>/neuron/production/
 
-Coming Soon:
+# Coming Soon:
 
   1) Compactability with other clouds, Azure on priority.
   3) Few more endpoints for the operations.
