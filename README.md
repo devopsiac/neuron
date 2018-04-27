@@ -1,6 +1,6 @@
 # Prerequisites:
 
-  1) Place your AWS credentails under .aws/credentails
+  1)Place your AWS credentails under .aws/credentails
 
 # Steps:
 
