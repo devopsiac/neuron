@@ -40,4 +40,4 @@
   1) Compactability with other clouds, Azure on priority.
   3) Few more endpoints for the operations.
   
-For doubts and more info please write to us @: [denginecore <dengine.core@mindtree.com>]
+For doubts and more info please write to us @: [iaac.devops.coe@gmail.com]
